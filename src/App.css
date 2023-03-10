@@ -2,12 +2,17 @@
   text-align: center;
 }
 
-.Particles {
-  position: absolute;
+.particles {
+  position: fixed; /* Makes everything full screen and that the background is fixed */
   top: 0;
   right: 0;
   left: 0;
   bottom: 0;
   z-index: -1;
   /*Can only be used with fixed or absolute*/
+}
+
+.center {
+  display: flex;
+  justify-content: center;
 }
