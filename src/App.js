@@ -70,7 +70,7 @@ loadUser = (data) => {
     //////////////////////////////////////////////////////////////////////////////////////////////////
 
     // Your PAT (Personal Access Token) can be found in the portal under Authentification
-    const url1 = 'https://smart-brain-server-q0yc.onrender.com/api-data';
+    const url1 = 'https://smart-brain-server-q0yc.onrender.com/api-data';;
     const options = {
       method: 'POST',
       headers: {
